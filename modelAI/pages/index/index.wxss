@@ -1,0 +1,235 @@
+/* 导航栏样式 */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 88rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 32rpx;
+  z-index: 100;
+}
+
+.nav-left {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.menu-icon {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.nav-title {
+  flex: 1;
+  text-align: center;
+  font-size: 36rpx;
+  color: #252D49;
+}
+
+/* 内容区样式 */
+.content {
+  margin-top: 88rpx;
+  padding: 26rpx;
+  min-height: calc(100vh - 88rpx - 100rpx);
+}
+
+/* 卡片样式 */
+.card {
+  background: #EDF7FF;
+  border-radius: 48rpx;
+  padding: 59rpx 20rpx;
+  box-shadow: 0 8rpx 8rpx rgba(0,0,0,0.25);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+
+.tag {
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 262rpx;
+  padding: 10rpx 18rpx;
+  font-size: 42rpx;
+}
+
+.subtitle {
+  margin-left: 144rpx;
+  font-size: 42rpx;
+  color: rgba(0,0,0,0.5);
+}
+
+.share-btn {
+  margin-left: auto;
+  width: 60rpx;
+  height: 60rpx;
+  background: #fff;
+  border-radius: 2626rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+/* 卡片内容样式 */
+.card-content {
+  padding: 0 20rpx;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20rpx;
+}
+
+.avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 24626rpx;
+  border: 6rpx solid rgba(0,0,0,0.2);
+}
+
+.title {
+  text-align: center;
+  font-size: 90rpx;
+  margin-bottom: 40rpx;
+}
+
+/* 信息网格样式 */
+.info-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40rpx;
+}
+
+.info-item {
+  width: 318rpx;
+  background: rgba(174,219,255,0.2);
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 24rpx;
+  padding: 20rpx;
+}
+
+.info-title {
+  font-size: 42rpx;
+  margin-bottom: 10rpx;
+}
+
+.info-tag {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rpx;
+  background: rgba(174,219,255,0.3);
+  border-radius: 8rpx;
+  padding: 10rpx;
+}
+
+.info-tag text {
+  font-size: 24rpx;
+  margin-right: 10rpx;
+}
+
+.tag-bg {
+  background: rgba(255,255,255,0.5);
+  border-radius: 8rpx;
+  padding: 4rpx 10rpx;
+  font-size: 24rpx;
+}
+
+/* 克隆按钮样式 */
+.clone-btn {
+  text-align: center;
+}
+
+.btn-content {
+  background: #EDF7FF;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 24626rpx;
+  padding: 20rpx 91rpx;
+  font-size: 60rpx;
+  display: inline-block;
+}
+
+.btn-desc {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: rgba(0,0,0,0.5);
+}
+
+/* 滑动指示器样式 */
+.slider {
+  margin-top: 30rpx;
+  text-align: center;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16rpx;
+}
+
+.dot {
+  width: 32rpx;
+  height: 6rpx;
+  background: rgba(0,0,0,0.2);
+  border-radius: 2rpx;
+  margin: 0 12rpx;
+}
+
+.dot.active {
+  width: 48rpx;
+  background: rgba(0,0,0,0.2);
+}
+
+.slider-text {
+  font-size: 48rpx;
+  color: rgba(0,0,0,0.5);
+}
+
+/* 底部导航栏样式 */
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  background: #fff;
+  border-top: 1px solid #DCDCDC;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 191rpx;
+}
+
+.tab-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-icon {
+  width: 48rpx;
+  height: 48rpx;
+  margin-bottom: 8rpx;
+}
+
+.tab-text {
+  font-size: 18rpx;
+}
+
+.tab-item.active .tab-text {
+  color: #FF5B2C;
+}
+
+.tab-item.active .tab-icon {
+  color: #FF5B2C;
+} 

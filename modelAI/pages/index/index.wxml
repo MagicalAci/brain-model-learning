@@ -1,0 +1,83 @@
+<!-- 导航栏 -->
+<view class="nav-bar">
+  <view class="nav-left">
+    <image class="menu-icon" src="/iamge/menu.png" mode="aspectFit"></image>
+  </view>
+  <view class="nav-title">首页</view>
+</view>
+
+<!-- 内容区 -->
+<view class="content">
+  <!-- 卡片 -->
+  <view class="card">
+    <view class="card-header">
+      <view class="tag">思维档案 No.1</view>
+      <view class="subtitle">产品&运营&创业 必备</view>
+      <view class="share-btn">
+        <image class="share-icon" src="/iamge/share.png" mode="aspectFit"></image>
+      </view>
+    </view>
+    
+    <view class="card-content">
+      <view class="avatar-container">
+        <image class="avatar" src="/iamge/image.png" mode="aspectFill"></image>
+      </view>
+      
+      <view class="title">张一鸣的大脑</view>
+      
+      <view class="info-grid">
+        <view class="info-item">
+          <view class="info-title">大佬成就</view>
+          <view class="info-tag">
+            <text>互联网变革者</text>
+            <view class="tag-bg">多款10亿+APP</view>
+          </view>
+          <view class="info-tag">
+            <text>产品思维领袖</text>
+            <view class="tag-bg">影响20亿+用户</view>
+          </view>
+        </view>
+        
+        <view class="info-item">
+          <view class="info-title">核心思维</view>
+          <view class="info-tag">
+            <text>产品思维领袖</text>
+            <view class="tag-bg">影响20亿+用户</view>
+          </view>
+          <view class="info-tag">
+            <text>产品思维领袖</text>
+            <view class="tag-bg">影响20亿+用户</view>
+          </view>
+        </view>
+      </view>
+      
+      <view class="clone-btn">
+        <view class="btn-content">克隆至我的私人大脑</view>
+        <view class="btn-desc">已有459人 克隆了张一鸣的大脑，获得了10大职场必备思维</view>
+      </view>
+    </view>
+  </view>
+  
+  <view class="slider">
+    <view class="slider-dots">
+      <view class="dot active"></view>
+      <view class="dot"></view>
+      <view class="dot"></view>
+      <view class="dot"></view>
+      <view class="dot"></view>
+    </view>
+    <view class="slider-text"><- 左右滑动查看更多 -></view>
+  </view>
+</view>
+
+<!-- 底部导航栏 -->
+<view class="tab-bar">
+  <view class="tab-item active">
+    <image class="tab-icon" src="/iamge/planet.png" mode="aspectFit"></image>
+    <text class="tab-text">思维星球</text>
+  </view>
+  <view class="tab-item">
+    <image class="tab-icon" src="/iamge/user.png" mode="aspectFit"></image>
+    <text class="tab-text">我的</text>
+  </view>
+</view> 
